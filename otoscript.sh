@@ -90,6 +90,7 @@ sudo apt-get update
  sleep 3
  cd /root
  wget https://raw.githubusercontent.com/sezerondrr/otoscript/master/otoscript.sh
+ exit
  chmod +x /root/otoscript.sh
  sh otoscript.sh
 esac
