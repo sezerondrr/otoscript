@@ -93,5 +93,5 @@ sudo apt-get update
  wget https://raw.githubusercontent.com/sezerondrr/otoscript/master/otoscript.sh
  touch otoscript.log
  chmod +x /root/otoscript.sh
- sh otoscript.sh
+ ./otoscript.sh
 esac
