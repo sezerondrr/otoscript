@@ -16,7 +16,7 @@ echo -e " \033[1;32m8) \033[36mScript Güncelle\033[0m"
 echo ""
 echo -e " \033[1;35m # -------------------------------------------------------- \033[35m # \n"
 echo " Önemli Not: Gerekli Bilesenleri Kurunuz."
-echo " Script Versiyon: v3 "
+echo " Script Versiyon: v2.7 "
 echo -e "\033[36m \n Islem Numaranizi Girin...\033[0m"
 echo -e " \033[1;35m# -------------------------------------------------------- \033[35m #"
 read secenek
