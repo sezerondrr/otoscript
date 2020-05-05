@@ -89,8 +89,8 @@ sudo apt-get update
  echo "Bash script güncelleniyor, lütfen bekleyiniz..."
  sleep 3
  cd /root
+ rm -fr otoscript.sh
  wget https://raw.githubusercontent.com/sezerondrr/otoscript/master/otoscript.sh
- exit
  chmod +x /root/otoscript.sh
  sh otoscript.sh
 esac
