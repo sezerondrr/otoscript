@@ -84,6 +84,7 @@ sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ xenial ma
 sudo apt-get update
  sudo apt install --install-recommends winehq-stable
  clear
+ ;;
  8)
  echo "Bash script güncelleniyor, lütfen bekleyiniz..."
  sleep 3
