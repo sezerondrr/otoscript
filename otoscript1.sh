@@ -92,7 +92,7 @@ sudo apt-get update
  rm -fr otoscript.sh
  wget https://raw.githubusercontent.com/sezerondrr/otoscript/master/otoscript1.sh
  cp otoscript1.sh otoscript.sh
- chmod +x /root/otoscript.sh
  rm -fr otoscript1.sh
+ chmod +x /root/otoscript.sh
  ./otoscript.sh
 esac
