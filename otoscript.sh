@@ -16,7 +16,7 @@ echo -e " \033[1;32m8) \033[36mScript Güncelle\033[0m"
 echo ""
 echo -e " \033[1;35m # -------------------------------------------------------- \033[35m # \n"
 echo " Önemli Not: Gerekli Bilesenleri Kurunuz."
-echo " Script Versiyon: v2 "
+echo " Script Versiyon: v3 "
 echo -e "\033[36m \n Islem Numaranizi Girin...\033[0m"
 echo -e " \033[1;35m# -------------------------------------------------------- \033[35m #"
 read secenek
@@ -84,4 +84,13 @@ sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ xenial ma
 sudo apt-get update
  sudo apt install --install-recommends winehq-stable
  clear
+ 8)
+ echo "Bash script güncelleniyor, lütfen bekleyiniz..."
+ sleep 3
+ cd /root
+ rm -fr otoscript.sh
+ wget https://raw.githubusercontent.com/sezerondrr/otoscript/master/otoscript.sh
+ chmod +x /root/otoscript.sh
+ sh otoscript.sh
+ ;;
 esac
