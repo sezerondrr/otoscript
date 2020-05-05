@@ -90,8 +90,8 @@ sudo apt-get update
  sleep 3
  cd /root
  rm -fr otoscript.sh
- wget https://raw.githubusercontent.com/sezerondrr/otoscript/master/otoscript.sh
- cp exectestB.sh exectest.sh
+ https://raw.githubusercontent.com/sezerondrr/otoscript/master/otoscript1.sh
+ cp otoscript1.sh otoscript.sh
  chmod +x /root/otoscript.sh
  ./otoscript.sh
 esac
